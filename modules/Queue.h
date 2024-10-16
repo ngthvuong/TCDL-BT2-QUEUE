@@ -30,7 +30,7 @@ private:
     void shiftLeft(int);
 
 public:
-    ARQueue(int size = 5);
+    ARQueue(int size = 100);
     bool enQueue(int) override;
     int deQueue() override;
     int peek() override;
